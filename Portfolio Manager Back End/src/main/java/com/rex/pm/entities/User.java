@@ -22,16 +22,19 @@ public class User implements Serializable{
 	private String name;
 	private String username;
 	private String password;
+	private String userType;
 
 	public User() {
 		super();
 	}
 
-	public User(String name, String username, String password) {
+	public User(int id, String name, String username, String password, String userType) {
 		super();
+		this.id = id;
 		this.name = name;
 		this.username = username;
 		this.password = password;
+		this.userType = userType;
 	}
 
 	public int getId() {
@@ -64,6 +67,14 @@ public class User implements Serializable{
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getUserType() {
+		return userType;
+	}
+
+	public void setUserType(String userType) {
+		this.userType = userType;
 	}
 
 	@Override
