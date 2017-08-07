@@ -1,0 +1,19 @@
+.content_main div{
+	margin-top: 20px;
+}
+.content_main label{
+	margin-right: 20px;
+}
+.content_main input{
+	width: 300px;
+	display: inline-block;
+}
+#email_label{
+	width: 70px;
+}
+.button_div{
+	padding-top: 100px;
+}
+.button_div button{
+	margin-right: 20px;
+}

@@ -1,0 +1,41 @@
+.logo{
+	background: #A8A0A0;
+	height: 150px;
+}
+.line{
+	font-size: 25px;
+	margin: 0 20px;
+}
+.aside{
+}
+.panel a{
+	font-size: 20px;
+}
+.info{
+	margin-right: 50px;
+	padding-top: 15px;
+}
+.info a{
+	font-size: 20px;
+}
+.info .buttom{
+	margin-top: 50px;
+}
+.info .buttom a{
+	margin-left: 10px;
+}
+.main{
+	margin-top: 15px;
+}
+.content {
+}
+.content a{
+	color: blue;
+}
+.content a:hover{
+	color: black;
+}
+.content_main {
+	background: #F0F0F0;
+	padding: 20px;
+}
