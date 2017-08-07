@@ -1,0 +1,30 @@
+.best_manager{
+	width: 400px;
+}
+.search{
+	margin-top: 50px;
+}
+.search h3{
+	display: inline-block;
+	margin-right: 20px;
+}
+.search select{
+}
+.search input{
+	display: inline-block;
+}
+.search button{
+	width: 100px;
+	margin-left: 10px;
+}
+.table{
+	margin-top: 20px;
+}
+.page_center{
+	margin: 0 auto;
+}
+.button_list button{
+	width: 150px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+}
